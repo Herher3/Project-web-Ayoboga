@@ -1,56 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AyoBoga</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-</head>
-<body>
-  <div id="app">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AyoBoga</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!--Bagian Navbar-->
+      <header class="navbar">
+        <div class="logo">
+          <img src="img/ayoboga logo.png" alt="Ayoboga Logo" />
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="btn-dwonload">Dwonload App</button>
+      </header>
 
-    <!--Bagian Navbar-->
-    <header class="navbar">
-      <div class="logo">
-        <img src="img/ayoboga logo.png" alt="Ayoboga Logo">
-      </div>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Recipes</a></li>
-          <li><a href="#">Category</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <button class="btn-dwonload">Dwonload App</button>
-    </header>
+      <!--Bagian Hero-->
+      <main class="hero">
+        <div class="hero-text">
+          <h1>
+            Tempatnya <span class="red">Resep</span><br />
+            dan <span class="green">Solusi</span
+            ><span class="yellow"> Dapur</span>
+          </h1>
+          <p>
+            Bersama AyoBoga kamu bisa belajar,<br />
+            berkreasi dan bertumbuh melalui dunia rasa<br />
+            yang kamu suka.
+          </p>
+          <button class="btn-cta">Coba Sekarang</button>
+        </div>
+        <div class="hero-image">
+          <!-- Gambar Makanan-->
+          <img src="img/herofood2.png" alt="Nasi Ayam" />
+        </div>
+        <div class="hero-hiasan">
+          <!-- Gambar Hiasan-->
+          <img src="img/heroHiasan2.png" alt="Hiasan" />
+        </div>
+      </main>
+    </div>
 
-    <!--Bagian Hero-->
-    <main class="hero">
-      <div class="hero-text">
-        <h1>
-          Tempatnya <span class="red">Resep</span><br>
-          dan <span class="green">Solusi</span><span class="yellow"> Dapur</span>
-        </h1>
-        <p>
-          Bersama AyoBoga kamu bisa belajar,<br>
-          berkreasi dan bertumbuh melalui dunia rasa<br> 
-          yang kamu suka.
-        </p>
-        <button class="btn-cta">Coba Sekarang</button>
-      </div>
-      <div class="hero-image">
-        <!-- Gambar Makanan-->
-        <img src="img/herofood2.png" alt="Nasi Ayam">
-      </div>
-      <div class="hero-hiasan">
-        <!-- Gambar Hiasan-->
-        <img src="img/heroHiasan2.png" alt="Hiasan">
-      </div>
-    </main>
-  </div>
+    <!-- Bagian About us-->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <!-- Bagian kiri -->
+        <div class="about-text">
+          <p>
+            <strong>Ayoboga Education</strong> adalah platfrom kuliner yang<br />
+            berdiri sejak 2019, untuk membatu siapa saja,<br />
+            belajar memasak secara peraktis<br />
+            dan menyenangkan. Kami menyediakan:
+          </p>
+          <ul class="about-list">
+            <li><span>✔</span> Resep</li>
+            <li><span>✔</span> Tutorial</li>
+            <li><span>✔</span> Kelas Memasak</li>
+            <li><span>✔</span> Informasi Rempah-rempah</li>
+            <li><span>✔</span> Layanan Katering</li>
+            <li><span>✔</span> Promosi</li>
+          </ul>
+          <p>
+            Ayoboga juga menjadi wadah bagi pelaku usaha<br />
+            kuliner untuk mempromosikan produk dan layanan<br />
+            mereka.<br />
+            Dengan semangat berbagi, Ayoboga tumbuh sebagai<br />
+            ruang belajar dan kolaborasi di dunia kuliner.
+          </p>
+        </div>
 
-</body>
+        <!-- Bagian Kanan -->
+        <div class="about-image">
+          <h2>About</h2>
+          <img src="img/ayoboga logo2 - Copy.png" alt="Ayoboga Logo" />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

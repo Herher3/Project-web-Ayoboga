@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #fff;
   color: #333;
 }
@@ -43,6 +43,7 @@ body {
   font-weight: bold;
   border: none;
   cursor: pointer;
+  box-shadow: 4px 4px #999;
 }
 
 /* Bagian Hero */
@@ -70,8 +71,9 @@ body {
 
 .hero-text p {
   font-size: 1.1rem;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
 .btn-cta {
@@ -83,6 +85,7 @@ body {
   font-weight: bold;
   border: none;
   cursor: pointer;
+  box-shadow: 4px 4px #999;
 }
 
 .hero-image img {
@@ -92,7 +95,7 @@ body {
 }
 
 .hero-hiasan img {
-  padding: 11rem 16rem;
+  padding: 10rem 16rem;
   position: absolute;
   top: 30px;
   left: 220px;
@@ -108,4 +111,69 @@ body {
 
 .yellow {
   color: #f39c12;
+}
+
+/* Bagian About us */
+.about-section {
+  padding: 80px 150px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffc107;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+  padding: 10px 50px;
+  color: #4a2c00;
+}
+
+.about-text p {
+  line-height: 1.6;
+}
+
+.about-text strong {
+  color: #b71c1c;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.about-list li {
+  margin: 8px 0;
+  font-weight: bold;
+  color: #b71c1c;
+}
+
+.about-list li span {
+  margin-right: 8px;
+  color: #b71c1c;
+}
+
+.about-image {
+  flex: 1;
+  padding: 60px;
+  background-color: #fff;
+  text-align: center;
+  border: 10px solid #ffc107;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.about-image h2 {
+  color: #b71c1c;
+  margin-bottom: 9px;
+}
+
+.about-image img {
+  max-width: 80%;
+  height: auto;
 }
